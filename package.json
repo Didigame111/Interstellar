@@ -7,6 +7,9 @@
     "node": ">=16.0.0"
   },
   "scripts": {
+  "build": "expo build:web"
+}
+  "scripts": {
     "start": "node index.js",
     "format": "biome format --write .",
     "precommit": "pnpm run format && biome check --write .",
